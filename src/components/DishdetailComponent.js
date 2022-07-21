@@ -19,6 +19,7 @@ function RenderDish({dish}){
         }
         return(
             <div >
+                {/* làm mờ dần object này thành object khác */}
                 <FadeTransform
                 in
                 transformProps={{

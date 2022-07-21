@@ -23,7 +23,7 @@ function RenderCard({item, isLoading, errMess}) {
             <FadeTransform
                 in
                 transformProps={{
-                    exitTransform: 'scale(0.5) translateY(-50%)'
+                    exitTransform: 'scale(0.5) translateY(-50%)'        // sử dụng để thay đổi độ rộng và chiều cao của phần tử.
                 }}>
                 <Card>
                     <CardImg src={baseUrl + item.image} alt={item.name} />

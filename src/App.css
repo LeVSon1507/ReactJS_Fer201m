@@ -52,3 +52,5 @@ address{
   transform: translateX(100%);
   transition: all 300ms ease-out;
 }
+
+/* Hàm CSS định vị lại một phần tử theo chiều ngang trên mặt phẳng 2D. Kết quả của nó là một kiểu dữ liệu. translateX() */
